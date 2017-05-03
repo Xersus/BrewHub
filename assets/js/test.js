@@ -20,8 +20,8 @@ function checkPass() {
         //The passwords do not match.
         //Set the color to the bad color and
         //notify the user.
-        pass2.style.backgroundColor = goodColor;
-        message.style.color = goodColor;
-        message.innerHTML = "Great Job!"
+        pass2.style.backgroundColor = badColor;
+        message.style.color = badColor;
+        message.innerHTML = "No Coffee For you Today!!!"
     }
 }
